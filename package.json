@@ -1,0 +1,39 @@
+{
+    "publisher": "geobomatic",
+    "name": "dark-plus-one-monokai",
+    "displayName": "Dark+ One Monokai",
+    "description": "A mashup between VSCode's Dark+ theme and Joshua Azemoh's One Monokai syntax colours",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark+ One Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_plus_one_monokai.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Geobert/dark-plus-one-monokai.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Geobert/dark-plus-one-monokai/issues"
+    },
+    "homepage": "https://github.com/Geobert/dark-plus-one-monokai/blob/master/README.md",
+    "keywords": [
+        "Vscode",
+        "Theme",
+        "Onedark",
+        "Monokai",
+        "Dark+"
+    ],
+    "author": "Geobert Quach <geobert@protonmail.com>",
+    "license": "MIT"
+}
