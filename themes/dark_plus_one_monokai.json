@@ -19,8 +19,7 @@
     "statusBar.noFolderBackground": "#4e4949",
     "editorLineNumber.foreground": "#777d88",
     "editorLineNumber.activeForeground": "#50bbf8",
-    //"editor.selectionBackground": "#555d6d",
-    // "editor.selectionHighlightBackground": "#324c5e",
+    "editor.lineHighlightBorder": "#3b3b3b"
   },
   "tokenColors": [
     {
