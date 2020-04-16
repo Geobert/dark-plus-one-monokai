@@ -1,11 +1,12 @@
 {
-    "publisher": "geobomatic",
+    "publisher": "Geobomatic",
     "name": "dark-plus-one-monokai",
     "displayName": "Dark+ One Monokai",
     "description": "A mashup between VSCode's Dark+ theme and Joshua Azemoh's One Monokai syntax colours",
-    "version": "0.1.0",
+    "version": "0.2.0",
+    "icon": "icon.png",
     "engines": {
-        "vscode": "^1.13.0"
+        "vscode": "^1.44.0"
     },
     "categories": [
         "Themes"
@@ -32,7 +33,8 @@
         "Theme",
         "Onedark",
         "Monokai",
-        "Dark+"
+        "Dark+",
+        "semantic"
     ],
     "author": "Geobert Quach <geobert@protonmail.com>",
     "license": "MIT"
