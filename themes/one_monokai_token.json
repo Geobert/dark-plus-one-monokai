@@ -114,6 +114,13 @@
       }
     },
     {
+      "name": "Types",
+      "scope": "storage.type.rust",
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
       "name": "Class",
       "scope": [
         "entity.name.class",
@@ -123,7 +130,16 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#61afef"
+        "foreground": "#56b6c2"
+      }
+    },
+    {
+      "name": "Class",
+      "scope": [
+        "entity.name.module.rust",
+      ],
+      "settings": {
+        "foreground": "#abb2bf"
       }
     },
     {
@@ -240,7 +256,7 @@
       "name": "Library constant",
       "scope": "support.constant",
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#61AFEF"
       }
     },
     {

@@ -21,12 +21,14 @@
     "statusBar.noFolderBackground": "#4e4949",
     "editorLineNumber.foreground": "#777d88",
     "editorLineNumber.activeForeground": "#50bbf8",
-    "editor.lineHighlightBorder": "#363636"
+    "editor.lineHighlightBorder": "#363636",
+    "editorInlayHint.background": "#00000000",
+    "editorInlayHint.foreground": "#626262",
   },
   "semanticHighlighting": true,
   "include": "./one_monokai_token.json",
   "semanticTokenColors": {
-    "member": "#c5c8ce",
+    //"member": "#c5c8ce",
     "variable": "#c5c8ce",
     "namespace": "#abb2bf",
     "enum": "#56b6c2",
@@ -34,8 +36,15 @@
     "typeAlias":  "#56b6c2",
     "interface": "#56b6c2",
     "enumMember": "#61afef",
-    "*.mutable": {
+    "*.mutable:rust": {
       "fontStyle": "underline"
+    },
+    "parameter": { "fontStyle": "", "foreground": "#d19a66" },
+    "*.consuming": {
+      "bold": true,
+    },
+    "*.trait": {
+      "italic": true,
     }
   }  
 }
